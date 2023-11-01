@@ -46,7 +46,7 @@ for message in st.session_state.messages:
 ### Chroma db에 임베딩된 데이터 저장
 
 # 주어진 문서를 로드하기
-loader = DirectoryLoader('./data/statistics', glob="*.txt", loader_cls=TextLoader)
+loader = DirectoryLoader('./statistics', glob="*.txt", loader_cls=TextLoader)
 documents = loader.load()
 
 # Split texts
