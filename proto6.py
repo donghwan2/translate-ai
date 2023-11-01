@@ -1,15 +1,14 @@
+# [배포 시에만] chromadb의 sqlite3 버전 문제 해결
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 """
 proto6 :
 대화 history가 저장되고,
 사용자가 미리 저장한 데이터 DB에 맞게
 사용자의 질문에 대한 답변을 "OOO"으로 답변"하는 챗봇
 """
-
-# [배포 시에만] chromadb의 sqlite3 버전 문제 해결
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 
 import streamlit as st
 
