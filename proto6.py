@@ -6,8 +6,8 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # proto6 :
 # 대화 history가 저장되고,
-# 사용자가 미리 저장한 데이터 DB에 맞게
-# 사용자의 질문에 대한 답변을 "OOO"으로 답변"하는 챗봇
+# 사용자가 미리 저장한 Chroma DB의 데이터를 이해한 상태에서,
+# 사용자의 질문에 대한 답변을 "langchain.RetrievalQA"으로 답변"하는 챗봇
 
 import streamlit as st
 
