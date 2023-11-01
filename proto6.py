@@ -10,6 +10,7 @@ import streamlit as st
 # api key
 # from dotenv import load_dotenv
 # load_dotenv()
+import openai
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # llm : langchain.ChatOpenAI
