@@ -8,8 +8,9 @@ proto6 :
 import streamlit as st
 
 # api key
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # llm : langchain.ChatOpenAI
 from langchain.llms import OpenAI
