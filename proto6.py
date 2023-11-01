@@ -22,6 +22,10 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 
+# [배포 시에만] chromadb의 sqlite3 버전 문제 해결
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 ### ★★★ 헤드 ★★★
