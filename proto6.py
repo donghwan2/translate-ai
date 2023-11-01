@@ -5,6 +5,12 @@ proto6 :
 사용자의 질문에 대한 답변을 "OOO"으로 답변"하는 챗봇
 """
 
+# [배포 시에만] chromadb의 sqlite3 버전 문제 해결
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 import streamlit as st
 
 # api key
@@ -21,11 +27,6 @@ from langchain.document_loaders import DirectoryLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
-
-# [배포 시에만] chromadb의 sqlite3 버전 문제 해결
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 ### ★★★ 헤드 ★★★
