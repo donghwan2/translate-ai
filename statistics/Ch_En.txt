@@ -1,6 +1,0 @@
-# Example of Korean to Chinese translation
-
-# 수소 -> 氢
-
-# 루비듐 -> 铷
-
