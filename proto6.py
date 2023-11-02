@@ -28,7 +28,7 @@ from langchain.vectorstores import Chroma
 
 
 ### ★★★ 헤드 ★★★
-st.markdown("# Chat-Prototype")
+st.markdown("#Translate-ai")
 
 
 ### st.session_state에 대화 내용 저장
