@@ -1,0 +1,4 @@
+# Example of Korean to Chinese translation
+
+# 수소 -> 氢
+
