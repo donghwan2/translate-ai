@@ -1,4 +1,5 @@
 # Example of Korean to Chinese translation
+한국어를 중국어로 번역하는 예시
 
 <화학 용어>
 
@@ -18,3 +19,6 @@
 <게임 용어>
 
 # 초대박할인 -> 超级折扣
+
+
+
