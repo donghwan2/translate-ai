@@ -35,7 +35,7 @@ st.markdown("# Translate-ai")
 
 # 모델 초기화 with st.session_state
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-4"         # LLM 모델 설정 : "gpt-3.5-turbo", "gpt-4"
+    st.session_state["openai_model"] = "gpt-3.5-turbo"         # LLM 모델 설정 : "gpt-3.5-turbo", "gpt-4"
 
 # 대화 초기화 with st.session_state
 if "messages" not in st.session_state:
