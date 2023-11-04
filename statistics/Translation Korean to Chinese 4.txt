@@ -1,4 +1,4 @@
-Translation Korean => Chinese 3
+Translation Korean => Chinese 4
 통합 서버	 =>	跨服
 낚기	 =>	钓起
 미끼	 =>	鱼饵
