@@ -1,4 +1,4 @@
-Translation Korean => Chinese
+Translation Korean => Chinese 2
 패널티	 =>	罚款/罚金/处罚/惩罚
 파티	 =>	同盟/联盟
 효과	 =>	效果
