@@ -1,4 +1,4 @@
-Translation Korean to Chinese 3
+Translation sentence to Chinese 3
 가방/배낭/행낭	 =>	背包
 점술사	 =>	占卜师
 부여	 =>	提供
