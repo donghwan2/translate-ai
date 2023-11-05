@@ -1,4 +1,4 @@
-Translation Korean => Chinese
+Translation Korean to Chinese
 
 초대박 할인	 =>	超级折扣
 캐릭터	 =>	角色
